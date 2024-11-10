@@ -1,0 +1,28 @@
+GET  http://localhost:5278
+
+###
+GET  http://localhost:5278/games
+
+###
+POST http://localhost:5278/games
+Content-Type: application/json
+
+{
+  
+  "price": 100,
+  "description": "Football game",
+  "releaseDate": "2020-10-10"
+
+}
+
+###
+PUT http://localhost:5278/games/1
+Content-Type: application/json
+
+{
+  "name": "FIFA 2022",
+  "price": 100,
+  "description": "Football game",
+  "releaseDate": "2020-10-10"
+
+}
