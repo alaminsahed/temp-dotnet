@@ -1,0 +1,6 @@
+# Ignore all bin directories at any 
+bin/
+**/bin/
+obj/
+**/obj/
+
